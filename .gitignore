@@ -1,3 +1,8 @@
 models/pokemon_battle_predictor.pkl
 Pokemon_Battle_Simulation.mp4
 .env
+__pycache__/notebook/Pokemon_Data_Analysis.ipynb
+__pycache__/notebook/Pokemon_Data_Analysis_New.ipynb
+__pycache__/
+/__pycache__
+__pycache__/app.cpython-39.pyc

@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 import pickle
 
 class AdvancedPokemonPredictor:
-    def __init__(self, data_path='pokemon.csv'):
+    def __init__(self, data_path='Pokemon.csv'):
         self.data = pd.read_csv(data_path)
         self.type_chart = self.create_comprehensive_type_chart()
         self.scaler = StandardScaler()
@@ -209,7 +209,7 @@ class AdvancedPokemonPredictor:
             }, f)
     
     @classmethod
-    def load(cls, filename='advanced_pokemon_predictor.pkl', data_path='pokemon.csv'):
+    def load(cls, filename='advanced_pokemon_predictor.pkl', data_path='Pokemon.csv'):
         """Load a saved predictor"""
         with open(filename, 'rb') as f:
             saved = pickle.load(f)
