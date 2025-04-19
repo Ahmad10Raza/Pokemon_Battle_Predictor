@@ -4,5 +4,5 @@ scikit-learn==1.2.2
 pandas==1.5.3
 xgboost==1.7.4
 flask==2.0.1
-seaborn=0.13.2
+# seaborn=0.13.2
 werkzeug==2.0.1
