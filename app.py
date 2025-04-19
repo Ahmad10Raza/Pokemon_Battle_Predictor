@@ -12,7 +12,7 @@ def load_predictor():
     try:
         predictor = AdvancedPokemonPredictor.load(
             filename=os.path.join('models', 'advanced_pokemon_predictor.pkl'),
-            data_path='pokemon.csv'
+            data_path='Pokemon.csv'
         )
         print("Predictor loaded successfully")
     except Exception as e:
